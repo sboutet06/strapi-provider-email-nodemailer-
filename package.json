@@ -1,7 +1,7 @@
 {
-  "name": "strapi-provider-email-nodemailer",
-  "version": "2.0.0",
-  "description": "Nodemailer provider for Strapi with attacments support for latest Strapi versions and NTLM auth support",
+  "name": "strapi-provider-email-nodemailer-postfix",
+  "version": "1.0.0",
+  "description": "Nodemailer provider for Strapi with attachments support for latest Strapi versions and NTLM auth support. Tweaked to work with local instance of Postfix",
   "main": "./lib",
   "directories": {
     "lib": "./lib"
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yutikom/strapi-provider-email-nodemailer.git"
+    "url": "git+https://github.com/sboutet06/strapi-provider-email-nodemailer.git"
   },
   "keywords": [
     "Strapi",
@@ -29,13 +29,13 @@
     "Email",
     "Provider"
   ],
-  "author": "Yurii Tykhomyrov",
+  "author": "Sébastien Boutet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yutikom/strapi-provider-email-nodemailer/issues"
+    "url": "https://github.com/sboutet06/strapi-provider-email-nodemailer/issues"
   },
   "strapi": {
     "isProvider": true
   },
-  "homepage": "https://github.com/yutikom/strapi-provider-email-nodemailer#readme"
+  "homepage": "https://github.com/sboutet06/strapi-provider-email-nodemailer#readme"
 }
